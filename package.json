@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "press-and-go-enhanced",
   "version": "0.1.0",
   "private": true,
@@ -36,4 +37,29 @@
       "last 1 safari version"
     ]
   }
+=======
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.2"
+  },
+  "name": "pressandgoenhanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchanda50q0on/pressngo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchanda50q0on/pressngo/issues"
+  },
+  "homepage": "https://github.com/dchanda50q0on/pressngo#readme",
+  "description": ""
+>>>>>>> 04d0720 (Initial commit)
 }

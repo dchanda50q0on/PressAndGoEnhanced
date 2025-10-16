@@ -33,7 +33,7 @@ async def execute_task(request: TaskRequest):
 
         # Initialize the LLM
         api_key = os.environ["GEMINI_API_KEY"]
-        llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=SecretStr(api_key))
+        llm = ChatGoogleGenerativeAI(model='gemini-2.5-flash', api_key=SecretStr(api_key))
 
         # Initialize the agent
         agent = Agent(tasks, llm, use_vision=True)
